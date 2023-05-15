@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactStyle.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3>Contact Me</h3>
+          <form method="post" action="send-email.php">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" required></textarea>
+
+            <input type="submit" value="Send">
+          </form>
+        </div>
+        <div class="col-6">
+          <img src="image.jpg" alt="Image">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
